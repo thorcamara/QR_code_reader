@@ -47,3 +47,16 @@ body {
   height: 225px;
   pointer-events: none;
 }
+
+form img {
+  display: none;
+  max-width: 148px;
+}
+
+.wrapper.active form img {
+  display: block;
+}
+
+.wrapper.active form .content {
+  display: none;
+}
